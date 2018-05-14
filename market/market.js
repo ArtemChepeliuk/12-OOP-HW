@@ -18,7 +18,6 @@ Product.prototype.price = function () {
     return this.price;
 };
 
-
 var apples = new Product('Яблука', 'фрукти', 3, 12);
 var orange = new Product('Апельсини', "фрукти", 5, 34);
 var banana = new Product('Банани', "фрукти", 3, 40);
@@ -37,13 +36,9 @@ var water = new Product('Вода', "бакалія", 12, 8);
 var krupa = new Product('Крупа ячнева', "бакалія", 4, 15);
 var sausage = new Product('Ковбаса', "бакалія", 6, 120);
 
-
-
 Product.prototype.bill = function () {
     return 'Ви придбали ' + this.name + " з відділу " + this.place + " на суму: " + this.weight * this.price + ' грн.'
 }
-
-
 
 console.log(apples.bill());
 console.log(orange.bill());

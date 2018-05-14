@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <div class="market">
+  <!-- <div class="market">
     <h1 class="title">Welcome to our Market</h1>
     <div class="container">
       <h2>Фрукти</h2>
@@ -30,8 +30,8 @@
             <span class="product_price">12 грн/кг</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight" min="1">
+            <button id="add" onclick="lalala()">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
@@ -47,8 +47,8 @@
             <span class="product_price">34 грн/кг</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight" >
+            <button id="add"  onclick="lalala()">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
@@ -64,8 +64,8 @@
             <span class="product_price">40 грн/кг</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight">
+            <button id="add">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
@@ -81,8 +81,8 @@
             <span class="product_price">80 грн/кг</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight">
+            <button id="add">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
@@ -98,8 +98,8 @@
             <span class="product_price">55 грн/кг</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight">
+            <button id="add">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
@@ -118,8 +118,8 @@
             <span class="product_price">16 грн/кг</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight">
+            <button id="add">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
@@ -135,8 +135,8 @@
             <span class="product_price">8 грн/кг</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight">
+            <button id="add">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
@@ -152,8 +152,8 @@
             <span class="product_price">4 грн/кг</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight">
+            <button id="add">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
@@ -169,8 +169,8 @@
             <span class="product_price">11 грн/кг</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight">
+            <button id="add">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
@@ -186,8 +186,8 @@
             <span class="product_price">55 грн/кг</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight">
+            <button id="add">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
@@ -206,8 +206,8 @@
             <span class="product_price">65 грн/пач</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight">
+            <button id="add">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
@@ -223,8 +223,8 @@
             <span class="product_price">29 грн/кг</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight">
+            <button id="add">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
@@ -240,8 +240,8 @@
             <span class="product_price">8 грн/бут</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight">
+            <button id="add">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
@@ -257,8 +257,8 @@
             <span class="product_price">15 грн/кг</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight">
+            <button id="add">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
@@ -274,20 +274,32 @@
             <span class="product_price">120 грн/кг</span>
           </div>
           <div class="add_product">
-            <input type="number">
-            <button>
+            <input type="number" class="weight">
+            <button id="add">
               <i class="fas fa-cart-plus"></i>
             </button>
           </div>
         </div>
       </div>
       <form class="form center">
-        <button id="remove"  type="button" class="btn btn btn-info">REMOVE</button>
+        <button id="remove" type="button" class="btn btn btn-info">REMOVE</button>
         <button id="buy" type="button" class="btn btn btn-success">BUY</button>
       </form>
+      <table class="table table-dark">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Price</th>
+          <th scope="col">Weight</th>
+          <th scope="col">Sum</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+      </table>
     </div>
-  </div>
-  </div>
+  </div> -->
+
 
 
 

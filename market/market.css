@@ -1,4 +1,4 @@
-* {
+/*  {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,11 +9,12 @@ body {
     background-image: url(img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 .market {
     background: rgba(0, 0, 0, 0.7);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .10) !important;
+    height: 100%;
 }
 
 .button {
@@ -67,4 +68,4 @@ body {
 .add_product button {
     width: 40px;
     color: #ee5151;
-}
+} */
